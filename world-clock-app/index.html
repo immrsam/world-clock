@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header>
+      <div class="digital-clock">
+        <div class="digit digit-1">1</div>
+        <div class="digit digit-2">2</div>
+        <div data-clock-flash class="digit-mid">:</div>
+        <div class="digit digit-3">3</div>
+        <div class="digit digit-4">4</div>
+      </div>
+    </header>
   </body>
+  <script type="module" src="/main.js"></script>
 </html>
