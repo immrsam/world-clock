@@ -16,7 +16,7 @@ function updateClock() {
   const date = new Date();
   const hour = date.getHours();
   const minute = date.getMinutes();
-  console.log(minute);
+
   const hourTenDigit = hour > 19 ? "2" : hour > 9 ? "1" : "0";
   const hourDigit = hour > 9 ? hour.toString()[1] : hour.toString()[0];
   const minuteTenDigit = minute.toString()[0];
