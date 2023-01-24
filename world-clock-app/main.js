@@ -14,8 +14,8 @@ function clockFlash() {
 }
 
 function updateClock() {
-  let chicago_datetime_str = new Date().toLocaleString("en-US", { timeZone: "Australia/Sydney" });
-  const date = new Date(chicago_datetime_str);
+  let timeZoneSelected = new Date().toLocaleString("en-US", { timeZone: "America/New_York" });
+  const date = new Date(timeZoneSelected);
 
   const hour = date.getHours();
   const minute = date.getMinutes();
